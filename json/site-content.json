@@ -1,0 +1,234 @@
+{
+  "brand": {
+    "name": "Steel Eagle Supply",
+    "logo": "/images/logo.svg",
+    "defaultLocale": "en",
+    "locales": ["en", "es"]
+  },
+  "navigation": [
+    { "label_en": "Home", "label_es": "Inicio", "href": "/" },
+    { "label_en": "About Us", "label_es": "Nosotros", "href": "/about" },
+    { "label_en": "Products", "label_es": "Productos", "href": "/products" },
+    { "label_en": "Services", "label_es": "Servicios", "href": "/services" },
+    {
+      "label_en": "Industries",
+      "label_es": "Industrias",
+      "href": "/industries"
+    },
+    {
+      "label_en": "Quality & Compliance",
+      "label_es": "Calidad y Cumplimiento",
+      "href": "/quality"
+    },
+    { "label_en": "Projects", "label_es": "Proyectos", "href": "/projects" },
+    { "label_en": "Resources", "label_es": "Recursos", "href": "/resources" },
+    { "label_en": "Contact", "label_es": "Contacto", "href": "/contact" }
+  ],
+  "home": {
+    "hero": {
+      "h1_en": "Steel Eagle Supply",
+      "h1_es": "Steel Eagle Supply",
+      "subheadline_en": "Reliable supply of pipe, fittings, flanges, and industrial materials for demanding energy and infrastructure projects.",
+      "subheadline_es": "Suministro confiable de tuberías, conexiones, bridas y materiales industriales para proyectos exigentes de energía e infraestructura.",
+      "cta_primary_en": "Request a Quote",
+      "cta_primary_es": "Solicitar Cotización",
+      "cta_secondary_en": "View Products",
+      "cta_secondary_es": "Ver Productos"
+    },
+    "trustBar": [
+      {
+        "en": "Fast response for technical orders.",
+        "es": "Respuesta rápida para pedidos técnicos."
+      },
+      {
+        "en": "Inventory support for project schedules.",
+        "es": "Soporte de inventario para cronogramas de proyecto."
+      },
+      {
+        "en": "Logistics for local and international delivery.",
+        "es": "Logística para entregas locales e internacionales."
+      },
+      {
+        "en": "Quality-focused supply for critical applications.",
+        "es": "Suministro enfocado en calidad para aplicaciones críticas."
+      }
+    ],
+    "aboutSnippet": {
+      "en": "Steel Eagle Supply is a B2B industrial supplier focused on serving oil & gas, petrochemical, power generation, water, and industrial fabrication customers.",
+      "es": "Steel Eagle Supply es un proveedor industrial B2B enfocado en atender clientes de petróleo y gas, petroquímica, generación de energía, agua y fabricación industrial."
+    }
+  },
+  "products": {
+    "categories": [
+      {
+        "name_en": "Carbon Steel Pipe",
+        "name_es": "Tubería de Acero al Carbono",
+        "copy_en": "Carbon steel pipe for general industrial, energy, and fabrication applications.",
+        "copy_es": "Tubería de acero al carbono para aplicaciones industriales generales, de energía y fabricación."
+      },
+      {
+        "name_en": "Alloy Pipe",
+        "name_es": "Tubería de Aleación",
+        "copy_en": "Alloy pipe for higher-temperature and higher-performance applications.",
+        "copy_es": "Tubería de aleación para aplicaciones de mayor temperatura y rendimiento."
+      },
+      {
+        "name_en": "Stainless Steel Pipe",
+        "name_es": "Tubería de Acero Inoxidable",
+        "copy_en": "Stainless pipe for corrosion-resistant applications.",
+        "copy_es": "Tubería inoxidable para aplicaciones resistentes a la corrosión."
+      },
+      {
+        "name_en": "Fittings",
+        "name_es": "Conexiones",
+        "copy_en": "Fittings for line connection and system integration.",
+        "copy_es": "Conexiones para unión de líneas e integración de sistemas."
+      },
+      {
+        "name_en": "Flanges",
+        "name_es": "Bridas",
+        "copy_en": "Flanges for bolted connections and pressure-rated installations.",
+        "copy_es": "Bridas para conexiones atornilladas e instalaciones con clasificación de presión."
+      },
+      {
+        "name_en": "Valves",
+        "name_es": "Válvulas",
+        "copy_en": "Valves for flow control and isolation.",
+        "copy_es": "Válvulas para control de flujo y aislamiento."
+      }
+    ]
+  },
+  "services": {
+    "items": [
+      { "en": "Cutting.", "es": "Corte." },
+      { "en": "Marking.", "es": "Marcado." },
+      { "en": "Coating.", "es": "Recubrimiento." },
+      { "en": "Packaging.", "es": "Empaque." },
+      { "en": "Logistics.", "es": "Logística." },
+      { "en": "Inspection support.", "es": "Soporte de inspección." }
+    ]
+  },
+  "industries": {
+    "items": [
+      { "name_en": "Oil & Gas", "name_es": "Petróleo y Gas" },
+      { "name_en": "Petrochemical", "name_es": "Petroquímica" },
+      { "name_en": "Power Generation", "name_es": "Generación de Energía" },
+      {
+        "name_en": "Water & Infrastructure",
+        "name_es": "Agua e Infraestructura"
+      },
+      {
+        "name_en": "Industrial Fabrication",
+        "name_es": "Fabricación Industrial"
+      }
+    ]
+  },
+  "quality": {
+    "points": [
+      { "en": "Product traceability.", "es": "Trazabilidad del producto." },
+      { "en": "Documentation support.", "es": "Soporte documental." },
+      { "en": "Order verification.", "es": "Verificación de pedidos." },
+      {
+        "en": "Project-oriented handling.",
+        "es": "Manejo orientado a proyectos."
+      },
+      { "en": "Logistics visibility.", "es": "Visibilidad logística." }
+    ]
+  },
+  "projects": {
+    "title_en": "Supplied Projects & Case Studies",
+    "title_es": "Proyectos Suministrados y Casos de Estudio",
+    "description_en": "Explore how Steel Eagle Supply successfully delivers premium piping materials and technical support for high-stakes energy, refining, and water infrastructure installations across the globe.",
+    "description_es": "Explore cómo Steel Eagle Supply entrega con éxito materiales de tubería de primera calidad y soporte técnico para instalaciones críticas de energía, refinación e infraestructura hídrica en todo el mundo.",
+    "items": [
+      {
+        "name_en": "Gulf Coast Refinery Expansion",
+        "name_es": "Expansión de la Refinería de la Costa del Golfo",
+        "location_en": "Texas, USA",
+        "location_es": "Texas, EE. UU.",
+        "industry_en": "Petrochemical & Refining",
+        "industry_es": "Petroquímica y Refinación",
+        "year": "2025",
+        "scope_en": "Supplied over 15,000 meters of seamless carbon steel pipe, high-yield fittings, and custom-engineered heavy wall flanges under tight project deadlines.",
+        "scope_es": "Suministró más de 15,000 metros de tubería de acero al carbono sin costura, conexiones de alto rendimiento y bridas de pared gruesa de ingeniería personalizada bajo plazos de proyecto estrictos."
+      },
+      {
+        "name_en": "Andean Gas Pipeline Phase II",
+        "name_es": "Gasoducto Andino Fase II",
+        "location_en": "South America",
+        "location_es": "Sudamérica",
+        "industry_en": "Pipeline Transportation",
+        "industry_es": "Transporte de Gasoductos",
+        "year": "2024",
+        "scope_en": "Delivered API 5L X65 high-strength line pipe and massive high-pressure flanges with full material traceability (MTRs) and custom export packaging.",
+        "scope_es": "Entrega de tubería de línea de alta resistencia API 5L X65 y bridas masivas de alta presión con trazabilidad total de material (MTRs) y empaque de exportación personalizado."
+      },
+      {
+        "name_en": "Metro Water Treatment and Distribution",
+        "name_es": "Tratamiento y Distribución de Agua Metropolitana",
+        "location_en": "Florida, USA",
+        "location_es": "Florida, EE. UU.",
+        "industry_en": "Water & Infrastructure",
+        "industry_es": "Agua e Infraestructura",
+        "year": "2024",
+        "scope_en": "Provision of comprehensive stainless steel piping systems, corrosion-resistant gate valves, and pressure-rated fittings for a municipal upgrade.",
+        "scope_es": "Suministro de sistemas integrales de tuberías de acero inoxidable, válvulas de compuerta resistentes a la corrosión y conexiones con clasificación de presión para una actualización municipal."
+      }
+    ]
+  },
+  "resources": {
+    "title_en": "Technical Resources & FAQ",
+    "title_es": "Recursos Técnicos y Preguntas Frecuentes",
+    "description_en": "Access technical materials, standard charts, and answers to frequently asked questions regarding industrial supply specifications, international logistics, and documentation compliance.",
+    "description_es": "Acceda a materiales técnicos, tablas estándar y respuestas a preguntas frecuentes sobre especificaciones de suministro industrial, logística internacional y cumplimiento de documentación.",
+    "faqs": [
+      {
+        "question_en": "What manufacturing and safety standards do your pipes and flanges comply with?",
+        "question_es": "¿Con qué normas de fabricación y seguridad cumplen sus tuberías y bridas?",
+        "answer_en": "All materials supplied comply with strict international standards, including ASTM, ASME, API, ANSI, MSS, and DIN/EN. We provide comprehensive mill test certificates (MTRs) for every delivery.",
+        "answer_es": "Todos los materiales suministrados cumplen con estrictas normas internacionales, incluyendo ASTM, ASME, API, ANSI, MSS y DIN/EN. Proporcionamos certificados de prueba de fábrica completos (MTR) para cada entrega."
+      },
+      {
+        "question_en": "What are your capabilities for custom packaging and international shipping?",
+        "question_es": "¿Cuáles son sus capacidades para embalaje personalizado y envío internacional?",
+        "answer_en": "We offer heavy-duty sea-worthy export packing, pipe end protection, custom wood crating, and complete shipping coordination. Our logistics team handles customs paperwork and export documentation for smooth transit.",
+        "answer_es": "Ofrecemos embalaje de exportación apto para transporte marítimo de alta resistencia, protección de extremos de tubería, cajas de madera personalizadas y coordinación de envío completa. Nuestro equipo de logística gestiona el papeleo de aduanas y la documentación de exportación."
+      },
+      {
+        "question_en": "Can you accommodate high-yield or custom mechanical requirements?",
+        "question_es": "¿Pueden adaptarse a requisitos mecánicos personalizados o de alto rendimiento?",
+        "answer_en": "Yes. We source specialty alloy, stainless, and heavy-wall carbon steel materials that meet specific hardness, impact testing, and low-temperature requirements for specialized engineering projects.",
+        "answer_es": "Sí. Suministramos materiales especiales de aleación, acero inoxidable y acero al carbono de pared gruesa que cumplen con requisitos específicos de dureza, pruebas de impacto y baja temperatura para proyectos de ingeniería especializados."
+      }
+    ],
+    "guides": [
+      {
+        "title_en": "Industrial Piping Material Specification & Grade Guide",
+        "title_es": "Guía de Especificación y Grados de Materiales para Tuberías Industriales",
+        "type": "PDF Guide",
+        "fileSize": "2.4 MB"
+      },
+      {
+        "title_en": "ASME B16.5 Flange Pressure Rating & Dimensional Table",
+        "title_es": "Tabla Dimensional y de Clasificación de Presión de Bridas ASME B16.5",
+        "type": "Technical Chart",
+        "fileSize": "1.8 MB"
+      }
+    ]
+  },
+  "contact": {
+    "cta_en": "Request a Quote",
+    "cta_es": "Solicitar Cotización",
+    "formFields": [
+      "name",
+      "company",
+      "email",
+      "phone",
+      "materialType",
+      "quantity",
+      "specifications",
+      "deliveryLocation",
+      "message"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "home": {
+    "title_en": "Steel Eagle Supply | Pipe, Fittings, Flanges & Industrial Materials",
+    "title_es": "Steel Eagle Supply | Tuberías, Conexiones, Bridas y Materiales Industriales",
+    "description_en": "Steel Eagle Supply provides pipe, fittings, flanges, and industrial materials for oil & gas, petrochemical, power, and infrastructure projects.",
+    "description_es": "Steel Eagle Supply ofrece tuberías, conexiones, bridas y materiales industriales para proyectos de petróleo, gas, petroquímica, energía e infraestructura."
+  },
+  "about": {
+    "title_en": "About Steel Eagle Supply",
+    "title_es": "Acerca de Steel Eagle Supply",
+    "description_en": "Learn about Steel Eagle Supply, an industrial supplier focused on pipe, fittings, flanges, and project support for energy markets.",
+    "description_es": "Conoce Steel Eagle Supply, un proveedor industrial enfocado en tuberías, conexiones, bridas y soporte para proyectos energéticos."
+  },
+  "products": {
+    "title_en": "Products | Steel Eagle Supply",
+    "title_es": "Productos | Steel Eagle Supply",
+    "description_en": "Explore pipe, fittings, flanges, valves, and industrial materials from Steel Eagle Supply.",
+    "description_es": "Explora tuberías, conexiones, bridas, válvulas y materiales industriales de Steel Eagle Supply."
+  },
+  "services": {
+    "title_en": "Value-Added Industrial Services | Steel Eagle Supply",
+    "title_es": "Servicios Industriales de Valor Agregado | Steel Eagle Supply",
+    "description_en": "Explore value-added B2B services from Steel Eagle Supply, including pipe cutting, marking, coating, custom packaging, logistics, and quality inspection.",
+    "description_es": "Explore los servicios B2B de valor agregado de Steel Eagle Supply, que incluyen corte de tuberías, marcado, recubrimiento, embalaje personalizado, logística e inspección de calidad."
+  },
+  "industries": {
+    "title_en": "Industries Served | B2B Supply | Steel Eagle Supply",
+    "title_es": "Industrias Atendidas | Suministro B2B | Steel Eagle Supply",
+    "description_en": "Steel Eagle Supply delivers industrial piping, valves, and fittings for key sectors including Oil & Gas, Petrochemical, Power Generation, Water, and Industrial Fabrication.",
+    "description_es": "Steel Eagle Supply suministra tuberías industriales, válvulas y conexiones para sectores clave como Petróleo y Gas, Petroquímica, Generación de Energía, Agua y Fabricación Industrial."
+  },
+  "quality": {
+    "title_en": "Quality, Compliance & Traceability | Steel Eagle Supply",
+    "title_es": "Calidad, Cumplimiento y Trazabilidad | Steel Eagle Supply",
+    "description_en": "Our commitment to quality ensures 100% product traceability, complete documentation support (MTRs), rigid order verification, and project-oriented material handling.",
+    "description_es": "Nuestro compromiso con la calidad garantiza el 100% de trazabilidad del producto, soporte documental completo (MTRs), verificación estricta de pedidos y manejo de materiales orientado a proyectos."
+  },
+  "projects": {
+    "title_en": "Supplied Projects & Case Studies | Steel Eagle Supply",
+    "title_es": "Proyectos Suministrados y Casos de Estudio | Steel Eagle Supply",
+    "description_en": "Review major pipeline, refinery, power, and water infrastructure projects successfully supplied by Steel Eagle Supply across international markets.",
+    "description_es": "Revise los principales proyectos de oleoductos, refinerías, energía e infraestructura hídrica suministrados con éxito por Steel Eagle Supply en mercados internacionales."
+  },
+  "resources": {
+    "title_en": "Technical Resources, FAQs & Guides | Steel Eagle Supply",
+    "title_es": "Recursos Técnicos, Preguntas Frecuentes y Guías | Steel Eagle Supply",
+    "description_en": "Access technical piping specifications, pressure charts, and FAQs about B2B procurement, international logistics, quality testing, and certifications.",
+    "description_es": "Acceda a especificaciones técnicas de tuberías, tablas de presión y preguntas frecuentes sobre adquisiciones B2B, logística internacional, pruebas de calidad y certificaciones."
+  },
+  "contact": {
+    "title_en": "Contact Us & Request a Quote | Steel Eagle Supply",
+    "title_es": "Contáctenos y Solicite una Cotización | Steel Eagle Supply",
+    "description_en": "Get in touch with Steel Eagle Supply. Submit a B2B quote request for pipes, valves, fittings, or flanges, or consult with our technical logistics team today.",
+    "description_es": "Póngase en contacto con Steel Eagle Supply. Envíe una solicitud de cotización B2B para tuberías, válvulas, conexiones o bridas, o consulte con nuestro equipo de logística técnica hoy."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "references": [
+    {
+      "name": "Federal Steel Supply",
+      "url": "https://www.fedsteel.com/espanol/",
+      "patterns": [
+        "technical B2B layout",
+        "product-heavy sections",
+        "strong trust signals",
+        "visible contact and availability",
+        "value-added services"
+      ]
+    },
+    {
+      "name": "ITF / Grupo Cuñado",
+      "url": "https://grupocunado.com/empresas-del-grupo-cunado/itf",
+      "patterns": [
+        "project-focused corporate presentation",
+        "global logistics emphasis",
+        "quality support",
+        "industry credibility",
+        "concise service blocks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "routing": "App Router"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#0F172A",
+      "secondary": "#1E3A8A",
+      "accent": "#F97316",
+      "background": "#FFFFFF",
+      "muted": "#F3F4F6"
+    },
+    "fontFamily": "Inter"
+  },
+  "seo": {
+    "openGraph": true,
+    "twitterCards": true,
+    "organizationSchema": true,
+    "faqSchema": true
+  }
+}
