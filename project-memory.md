@@ -7,9 +7,9 @@
 
 ## Current Status
 
-**Phase:** 2 — Global Layout & Shared Components Complete  
+**Phase:** 3 — Homepage Complete  
 **Blockers:** None  
-**Next Action:** Proceed to Phase 3 — Homepage (Build HeroSection, TrustBar, previews, CTA banner, and wire index page)
+**Next Action:** Proceed to Phase 4 — Internal Pages (Build /about, /products, /services, /industries, /quality, /projects, /resources, /contact)
 
 ---
 
@@ -46,16 +46,16 @@
 ## Pending Tasks
 
 ### Phase 3 — Homepage
-- [ ] Build `HeroSection` component (using temporary CSS-based industrial placeholder; real asset deferred to Phase 3)
-- [ ] Build `TrustBar` component
-- [ ] Build `AboutSnippet` component
-- [ ] Build `ProductsPreview` component
-- [ ] Build `ServicesPreview` component
-- [ ] Build `IndustriesPreview` component
-- [ ] Build `QualityBlock` component
-- [ ] Build `ContactCTA` component
-- [ ] Wire homepage `page.tsx` with all sections
-- [ ] Wire homepage SEO metadata from `seo-content.json`
+- [x] Build `HeroSection` component (using temporary CSS-based industrial placeholder; real asset deferred to Phase 3)
+- [x] Build `TrustBar` component
+- [x] Build `AboutSnippet` component
+- [x] Build `ProductsPreview` component
+- [x] Build `ServicesPreview` component
+- [x] Build `IndustriesPreview` component
+- [x] Build `QualityBlock` component
+- [x] Build `ContactCTA` component
+- [x] Wire homepage `page.tsx` with all sections
+- [x] Wire homepage SEO metadata from `seo-content.json`
 
 ### Phase 4 — Internal Pages
 - [ ] Build `/about` page
