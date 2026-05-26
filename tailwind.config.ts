@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        nav: "1240px",
+      },
       colors: {
         primary: "#0F172A",     // dark navy
         secondary: "#1E3A8A",   // steel blue
