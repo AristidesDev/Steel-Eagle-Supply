@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useLocale } from "@/components/layout/LocaleContext";
 import { siteContent, prop } from "@/lib/content";
 import { PageHero } from "@/components/shared/PageHero";
@@ -26,6 +27,25 @@ const extDesc: { en: string; es: string }[] = [
   { en: "Gate, globe, check, ball, and butterfly valves for isolation and flow regulation. Sourced from leading manufacturers with full pressure and temperature certification.", es: "Válvulas de compuerta, globo, retención, bola y mariposa para aislamiento y regulación de flujo. De fabricantes líderes con certificación completa de presión y temperatura." },
 ];
 
+/* Product category images mapped by index */
+const productImages = [
+  "/images/products/carbon-steel.webp",
+  "/images/products/alloy-pipe.webp",
+  "/images/products/stainless-steel.webp",
+  "/images/products/fittings.webp",
+  "/images/products/flanges.webp",
+  "/images/products/valve.webp",
+];
+
+const productImageAlts = [
+  { en: "Carbon steel pipes stacked", es: "Tuberías de acero al carbono apiladas" },
+  { en: "Alloy steel pipes in factory", es: "Tuberías de aleación en fábrica" },
+  { en: "Stainless steel pipes with markings", es: "Tuberías de acero inoxidable con marcajes" },
+  { en: "Steel pipe fittings - elbow, tee, reducer", es: "Conexiones de tubería - codo, tee, reductor" },
+  { en: "Precision machined steel flanges", es: "Bridas de acero mecanizadas con precisión" },
+  { en: "Industrial gate valve", es: "Válvula de compuerta industrial" },
+];
+
 export default function ProductsPage() {
   const { locale } = useLocale();
   const categories = siteContent.products.categories;
@@ -36,18 +56,25 @@ export default function ProductsPage() {
         title={locale === "en" ? "Products" : "Productos"}
         subtitle={locale === "en" ? "Explore pipe, fittings, flanges, valves, and industrial materials from Steel Eagle Supply." : "Explore tuberías, conexiones, bridas, válvulas y materiales industriales de Steel Eagle Supply."}
         breadcrumbs={[{ label: "Products", label_es: "Productos" }]}
+        backgroundImage="/images/hero/products-hero.webp"
+        backgroundAlt="Industrial warehouse with workers and steel pipe inventory"
       />
 
       <SectionWrapper id="products-catalog" bg="white">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((cat, i) => (
             <div key={i} className="group relative bg-white border border-slate-200/80 rounded-xl overflow-hidden hover:shadow-xl hover:border-secondary/30 transition-all duration-300 hover:-translate-y-1 animate-slide-up" style={{ animationDelay: `${i * 80}ms` }}>
-              {/* Top visual band */}
-              <div className="relative h-40 bg-gradient-to-br from-slate-900 to-primary flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:2rem_2rem] opacity-20" />
-                <div className="relative z-10 text-white/80 group-hover:scale-110 transition-transform duration-500">
-                  {productIcons[i]}
-                </div>
+              {/* Top visual band with product photo */}
+              <div className="relative h-48 overflow-hidden bg-slate-100">
+                <Image
+                  src={productImages[i]}
+                  alt={locale === "en" ? productImageAlts[i].en : productImageAlts[i].es}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                {/* Dark gradient overlay for polish */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
               </div>
 
               <div className="p-6">

@@ -17,6 +17,8 @@ export default function ResourcesPage() {
         title={prop(resources, "title", locale)}
         subtitle={prop(resources, "description", locale)}
         breadcrumbs={[{ label: "Resources", label_es: "Recursos" }]}
+        backgroundImage="/images/hero/products-hero.webp"
+        backgroundAlt="Industrial warehouse with steel pipe inventory"
       />
 
       {/* FAQ Accordion */}

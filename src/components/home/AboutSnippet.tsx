@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useLocale } from "../layout/LocaleContext";
 import { siteContent, t } from "@/lib/content";
 import { SectionWrapper } from "../shared/SectionWrapper";
@@ -53,25 +54,43 @@ export function AboutSnippet() {
           </CTAButton>
         </div>
 
-        {/* Right — Stats Grid */}
-        <div className="grid grid-cols-2 gap-4 animate-slide-up" style={{ animationDelay: "200ms" }}>
-          {stats.map((stat, i) => (
-            <div
-              key={i}
-              className="group relative bg-gradient-to-br from-slate-50 to-white border border-slate-200/80 rounded-xl p-6 text-center hover:shadow-lg hover:border-secondary/30 transition-all duration-300 hover:-translate-y-1 overflow-hidden"
-            >
-              {/* Subtle glow on hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative z-10">
-                <span className="block text-3xl md:text-4xl font-extrabold text-secondary mb-2 tracking-tight">
-                  {stat.value}
-                </span>
-                <span className="text-xs font-semibold uppercase tracking-widest text-slate-500">
-                  {locale === "en" ? stat.label_en : stat.label_es}
-                </span>
-              </div>
+        {/* Right — Photo with Stats Overlay */}
+        <div className="animate-slide-up" style={{ animationDelay: "200ms" }}>
+          {/* Featured image */}
+          <div className="relative rounded-2xl overflow-hidden mb-6 shadow-xl">
+            <div className="aspect-[4/3] relative">
+              <Image
+                src="/images/sections/quality-inspection.webp"
+                alt={locale === "en" ? "Quality control team inspecting steel flanges with precision instruments" : "Equipo de control de calidad inspeccionando bridas de acero con instrumentos de precisión"}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              {/* Subtle gradient at bottom for depth */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/25 to-transparent" />
             </div>
-          ))}
+          </div>
+
+          {/* Stats Grid */}
+          <div className="grid grid-cols-2 gap-4">
+            {stats.map((stat, i) => (
+              <div
+                key={i}
+                className="group relative bg-gradient-to-br from-slate-50 to-white border border-slate-200/80 rounded-xl p-5 text-center hover:shadow-lg hover:border-secondary/30 transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+              >
+                {/* Subtle glow on hover */}
+                <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="relative z-10">
+                  <span className="block text-2xl md:text-3xl font-extrabold text-secondary mb-1 tracking-tight">
+                    {stat.value}
+                  </span>
+                  <span className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                    {locale === "en" ? stat.label_en : stat.label_es}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </SectionWrapper>

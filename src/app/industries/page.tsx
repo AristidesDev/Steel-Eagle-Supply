@@ -41,6 +41,8 @@ export default function IndustriesPage() {
         title={locale === "en" ? "Industries We Serve" : "Industrias que Atendemos"}
         subtitle={locale === "en" ? "Trusted supply for the world's most demanding industrial markets." : "Suministro confiable para los mercados industriales más exigentes del mundo."}
         breadcrumbs={[{ label: "Industries", label_es: "Industrias" }]}
+        backgroundImage="/images/hero/home-hero.webp"
+        backgroundAlt="Industrial pipe supply yard"
       />
 
       <SectionWrapper id="industries-list" bg="white">

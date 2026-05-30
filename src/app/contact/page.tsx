@@ -66,6 +66,8 @@ export default function ContactPage() {
         title={locale === "en" ? "Contact Us" : "Contáctenos"}
         subtitle={locale === "en" ? "Get in touch with Steel Eagle Supply. Submit a B2B quote request or consult with our technical team." : "Póngase en contacto con Steel Eagle Supply. Envíe una solicitud de cotización B2B o consulte con nuestro equipo técnico."}
         breadcrumbs={[{ label: "Contact", label_es: "Contacto" }]}
+        backgroundImage="/images/sections/contact-cta-bg.webp"
+        backgroundAlt="Industrial supply office consultation"
       />
 
       <SectionWrapper id="contact-form-section" bg="white">

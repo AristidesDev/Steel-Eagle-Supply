@@ -19,6 +19,8 @@ export default function ProjectsPage() {
         title={prop(projects, "title", locale)}
         subtitle={prop(projects, "description", locale)}
         breadcrumbs={[{ label: "Projects", label_es: "Proyectos" }]}
+        backgroundImage="/images/hero/home-hero.webp"
+        backgroundAlt="Industrial pipe supply operations"
       />
 
       <SectionWrapper id="projects-list" bg="white">

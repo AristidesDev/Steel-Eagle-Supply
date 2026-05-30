@@ -37,6 +37,8 @@ export default function ServicesPage() {
         title={locale === "en" ? "Value-Added Services" : "Servicios de Valor Agregado"}
         subtitle={locale === "en" ? "We go beyond material supply with project-ready services that reduce your total cost and accelerate schedules." : "Vamos más allá del suministro de materiales con servicios listos para proyectos que reducen costos y aceleran cronogramas."}
         breadcrumbs={[{ label: "Services", label_es: "Servicios" }]}
+        backgroundImage="/images/hero/products-hero.webp"
+        backgroundAlt="Industrial warehouse operations"
       />
 
       <SectionWrapper id="services-list" bg="white">

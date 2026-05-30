@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useLocale } from "@/components/layout/LocaleContext";
 import { siteContent, t } from "@/lib/content";
 import { PageHero } from "@/components/shared/PageHero";
@@ -45,6 +46,8 @@ export default function AboutPage() {
         title={locale === "en" ? "About Steel Eagle Supply" : "Acerca de Steel Eagle Supply"}
         subtitle={t(snippet, locale)}
         breadcrumbs={[{ label: "About Us", label_es: "Nosotros" }]}
+        backgroundImage="/images/hero/about-hero.webp"
+        backgroundAlt="Steel Eagle Supply team reviewing plans and certified products"
       />
 
       {/* Mission */}
@@ -69,17 +72,17 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          {/* Right — decorative industrial visual */}
-          <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary via-slate-900 to-slate-950 p-10 min-h-[320px] flex items-center justify-center">
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-30" />
-            <div className="absolute top-1/4 left-10 w-60 h-60 bg-secondary/20 rounded-full blur-[80px]" />
-            <div className="absolute bottom-10 right-10 w-40 h-40 bg-accent/15 rounded-full blur-[60px]" />
-            <div className="relative z-10 text-center">
-              <span className="text-6xl font-extrabold text-white/10 tracking-tight">SES</span>
-              <p className="mt-4 text-xs font-bold uppercase tracking-[0.3em] text-slate-400">
-                {locale === "en" ? "Industrial Supply Excellence" : "Excelencia en Suministro Industrial"}
-              </p>
-            </div>
+          {/* Right — Mission photo */}
+          <div className="relative rounded-2xl overflow-hidden min-h-[320px] lg:min-h-[400px] shadow-2xl">
+            <Image
+              src="/images/sections/about-snippet.webp"
+              alt={locale === "en" ? "Worker inspecting pipe with caliper measurement tool" : "Trabajador inspeccionando tubería con herramienta de medición"}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+            {/* Subtle gradient overlay at bottom */}
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
           </div>
         </div>
       </SectionWrapper>

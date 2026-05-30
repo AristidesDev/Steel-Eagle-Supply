@@ -37,6 +37,8 @@ export default function QualityPage() {
         title={locale === "en" ? "Quality & Compliance" : "Calidad y Cumplimiento"}
         subtitle={locale === "en" ? "Our commitment to quality ensures every order meets the highest international standards." : "Nuestro compromiso con la calidad asegura que cada pedido cumpla los más altos estándares internacionales."}
         breadcrumbs={[{ label: "Quality & Compliance", label_es: "Calidad y Cumplimiento" }]}
+        backgroundImage="/images/hero/about-hero.webp"
+        backgroundAlt="Quality assurance team and certified products"
       />
 
       <SectionWrapper id="quality-points" bg="white">

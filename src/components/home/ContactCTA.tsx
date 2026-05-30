@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useLocale } from "../layout/LocaleContext";
 import { CTAButton } from "../shared/CTAButton";
 
@@ -9,12 +10,24 @@ export function ContactCTA() {
 
   return (
     <section id="contact-cta" className="relative overflow-hidden bg-gradient-to-r from-secondary via-blue-800 to-primary py-20 md:py-28">
+      {/* Background photo */}
+      <Image
+        src="/images/sections/contact-cta-bg.webp"
+        alt={locale === "en" ? "Industrial supply office and warehouse" : "Oficina y almacén de suministros industriales"}
+        fill
+        className="object-cover opacity-20"
+        sizes="100vw"
+      />
+
+      {/* Gradient overlay on top of photo */}
+      <div className="absolute inset-0 bg-gradient-to-r from-secondary/85 via-blue-800/80 to-primary/85 z-[1]" />
+
       {/* Background grid overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:3rem_3rem]" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:3rem_3rem] z-[2]" />
 
       {/* Decorative glows */}
-      <div className="absolute -top-20 -left-20 w-96 h-96 bg-accent/15 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-white/5 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute -top-20 -left-20 w-96 h-96 bg-accent/15 rounded-full blur-[100px] pointer-events-none z-[2]" />
+      <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-white/5 rounded-full blur-[80px] pointer-events-none z-[2]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-white/10 text-white/80 border border-white/10 mb-6 animate-fade-in">
